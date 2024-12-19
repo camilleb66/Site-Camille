@@ -1,0 +1,134 @@
+header {
+    padding: 10px 0;
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+    background-image: url(menu.jpeg);
+}
+
+#logo img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(45deg, #ADD8E6, #FFC0CB);
+}
+nav {
+    background-color: #d30f0f33;
+    color: white;
+    padding: 10px 0;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h2 {
+    color: #f444fc;
+    text-align: left;
+    margin-left: 20px;
+}
+
+p {
+    text-align: justify;
+    margin: 20px;
+}
+
+#réseaux-sociaux {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
+}
+
+#réseaux-sociaux img {
+    width: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0 ;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#footer-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1140px) {
+    p {
+        max-width: 1000px;
+    }
+
+    h2 {
+        margin-left: 20px;
+
+    }
+}
+
+@media screen and (max-width: 992px) {
+    p {
+        max-width: 900px;
+    }
+
+    h2 {
+        margin-left: 20px;
+
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        padding: 5px 0;
+        /* Réduit les marges dans le header */
+    }
+
+    #logo img {
+        width: 110px;
+
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+}

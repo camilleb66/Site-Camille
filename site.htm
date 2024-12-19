@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Chez Gérard - Bar à Mende | Bières Artisanales, Soirées à Thème</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div id="logo">
+            <img src="logo.png" alt="Logo du Bar Chez Gérard">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="site.htm">Accueil</a></li>
+                <li><a href="#le_bar"> Le Bar</a></li>
+                <li><a href="#nos_soirées">Nos soirées</a></li>
+                <li><a href="#actualités">Actualités</a></li>
+                <li><a href="#galerie">Galerie</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="conteneur-image">
+            <img src="menu.jpeg" alt="Image principale">
+        </div>
+
+    </header>
+
+    <section id="offres">
+        <h2> Notre offre </h2>
+        <div>
+            <p>Au Bar Chez Gérard, nous avons à cœur de satisfaire toutes vos envies en matière de boissons. <br>
+                Notre sélection de bières artisanales propose des saveurs locales et internationales, avec des options
+                pour tous les goûts, que vous soyez amateur de blondes légères ou de brunes robustes. <br>
+                Pour les amateurs de vins, nous offrons une carte soigneusement élaborée, avec des crus raffinés pour
+                accompagner vos repas ou moments de détente. <br>
+                Enfin, notre gamme de spiritueux inclut des cocktails créatifs et des classiques intemporels, parfaits
+                pour animer vos soirées. </p>
+        </div>
+
+        <div id="carte">
+            <a href="CARTEBAR.pdf"> Voir la carte </a>
+        </div>
+
+    </section>
+    <section id="galerie">
+        <h2> Nos prochaines soirées </h2>
+        <div>
+            <img src="img/img1.jpg" alt="Affiche soirée Apéro quizz">
+            <img src="img/img2.jpg" alt=" Affiche soirée rock">
+            <img src="img/img3.png" alt="Affiche soirée stand up">
+            <img src="img/img4.jpg" alt="Affiche soirée Nouvel an">
+        </div>
+    </section>
+    <section id="actualités">
+        <h2> Actualités </h2>
+        <img src="karaoke.png" alt="Soirée karaoke">
+        <img src="karaoke1.jpg" alt="Photos des clients">
+        <p> Retour en images sur notre soirée karaoké du 28/11/2024 !</p>
+    </section>
+    <section id="avis-clients">
+        <h2> Laissez-nous rougir ! </h2>
+        <div id="avis">
+            <blockquote>
+                <p>"Une ambiance incroyable et des boissons top qualité. J'adore venir ici avec mes amis !"</p>
+                <span>- Clara</span>
+            </blockquote>
+            <blockquote>
+                <p>"Le staff est super accueillant et les soirées à thème sont toujours une réussite."</p>
+                <span>- Mathieu</span>
+            </blockquote>
+            <blockquote>
+                <p>"Meilleur bar du coin, sans aucun doute ! Les cocktails sont fabuleux."</p>
+                <span>- Sophie</span>
+            </blockquote>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <p>Vous avez une question, une suggestion ou <br>
+            vous souhaitez réserver pour une soirée à thème ?
+            N'hésitez pas à nous contacter via le formulaire ci-dessous.</p>
+
+        <form action="envoyer.php" method="post" id="questions">
+            <label>Nom & Prénom :</label>
+            <input type="text" name="nom_prenom" placeholder="Saisir nom et Prénom" required>
+
+            <label>Email :</label>
+            <input type="email" name="email" placeholder="Saisir le courriel" required>
+
+            <label for="phone">Téléphone :</label>
+            <input type="tel" id="phone" name="phone" placeholder="Votre numéro de téléphone" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" placeholder="Rédigez votre message ici ..." required> </textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+    <h2> Horaires d'ouverture</h2>
+
+    <table>
+        <tr>
+            <th>Jour</th>
+            <th>Horaires</th>
+        </tr>
+        <tr>
+            <td>Lundi - Jeudi</td>
+            <td>18h00 - 00h00</td>
+        </tr>
+        <tr>
+            <td>Vendredi - Samedi</td>
+            <td>18h00 - 02h00</td>
+        </tr>
+        <tr>
+            <td>Dimanche</td>
+            <td>Fermé</td>
+        </tr>
+    </table>
+    <div id="retour">
+        <a href="#top">TOP</a>
+    </div>
+    <div id="réseaux-sociaux">
+        <img src="facebook.png" alt=" Logo Facebook">
+        <img src="instagram.png" alt="Logo Instagram">
+    </div>
+    <div>
+        <h2>Nous trouver sur la carte :</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11697.840027322524!2d3.507494!3d44.514048!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c8fdb7b26376ff%3A0x406ed20ad9b8db7f!2s25%20Avenue%20Mar%C3%A9chal%20Foch%2C%2048000%20Mende%2C%20France!5e0!3m2!1sfr!2sfr!4v1702998271143!5m2!1sfr!2sfr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <footer>
+        <ul>
+            <li><a href="mentionslegales.htm">Mentions Légales</a></li>
+            <li> Contact </li>
+            <li>Politique de confidentialité </li>
+        </ul>
+        <div id="footer-contact">
+            <p>Adresse: 25 Avenue Marechal Foch,
+                48000 Mende, France</p>
+            <p>Email: contact@chezgerard.com</p>
+            <p>Téléphone: +33 1 23 45 67 89</p>
+        </div>
+
+        <p>&copy; 2024 Chez Gérard.Tous droits réservés.</p>
+    </footer>
+</body>
